@@ -1,9 +1,9 @@
+body {
+  margin: 0; }
+
 .main-div {
-  height: auto;
   min-height: 1000px;
-  background-image: url(SGA1QgM.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: black;
   display: grid;
   grid-template-areas: "x x" "y y" "z1 z2" "m m";
   color: white;
