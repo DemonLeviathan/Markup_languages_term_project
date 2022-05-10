@@ -1,0 +1,364 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: black;
+}
+.div-main
+{
+    max-width: 1920px;
+    margin: 0;
+    display: grid;
+}
+h1
+{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Algerian';
+    text-shadow: 7px -3px 10px #ffb86c;
+    transform-style: preserve-3d;
+}
+h2
+{
+    padding-left: 5%;
+    font-family: 'Algerian';
+}
+.grid1
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    grid-gap: 0%;
+    
+}
+.one
+{
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-image: url(Stalker-2-emerges-from-the-shadows-at-Xbox-Games-Showcase-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two
+{
+    padding: 10px 5% 10px 15%;
+    display: grid;
+    margin: 0;
+    height: 700px;
+    grid-gap: 2%;
+    background-image: url(s-t-a-l-k-e-r-2-pripyat-chast-vtoraya-hfgb.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.two div
+{
+    max-width: 360px;
+    font-size: 18px;
+    font-family: 'book antiqua';
+}
+.d1, .d2, .d3, .d4{
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0, .6);
+    color: #FF8C00;
+}
+.d0
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end:1;
+}
+.d1 
+{
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.d2
+{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.d3{
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+.d4{
+    grid-row-start: 2;
+    grid-row-end: 8;
+
+}
+.d5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 10; 
+}
+.news
+{
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.three
+{
+    width: 100%;
+    height: 800px;
+    padding-left: 15%;
+    background-image: url(maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.slider{
+    margin-top: 80px;
+    max-width: 70%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.9
+    }
+    to {
+        opacity: 1
+    }
+}
+.text
+{
+    margin-top: -55px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Algerian';
+}
+.four
+{
+    width: 100%;
+    height: 580px;
+    padding: 10px 15px 10px 15%;
+    display: grid;
+    grid-gap: 5px;
+    background-image: url(7f74445ca8-2_1390x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.name
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.work
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    display: grid;
+    grid-gap: 10px;
+
+}
+.work div
+{
+    line-height: 100px;
+    font-size: 20px;
+    border-left: 3px solid black;
+}
+.search
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+#search
+{
+    border-bottom: 2px solid black;
+}
+.data
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.five
+{
+    padding: 10px 15px 10px 15%;
+    width: 100%;
+    height: 575px;
+    display: grid;
+    grid-gap: 15px;
+    background-image: url(stalker-2-xbox-reveal.jpg.e301c47c9a8fe06f25fa20d2e6f2ff2c.jpg);
+    background-position: 0 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.info
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    display: grid;
+    font-size: 22px;
+    grid-gap: 15px;
+}
+.info div
+{
+    border-left: 3px solid black;
+    padding-left: 5px;
+}
+.l1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.l2
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.l3
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.l4
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.l5
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.l6
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.form1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding-left: 5px;
+    border-top: 2px solid black;
+}
+.form2
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding-left: 5px;
+    border-top: 2px solid black;
+}
+.form1 a, .form2 a
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+p
+{
+    font-size: 17px;
+    padding-left: 5px;
+}
+article
+{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'book antiqua';
+    font-weight: bold;
+    margin-top: 7%;
+    text-shadow: 6px -2px 5px #ffb86c;
+}
+#text
+{
+    text-shadow: 6px -2px 4px #ffb86c;
+    color: #000000;
+    font-weight: bold;
+}
+a
+{
+    color: white;
+}

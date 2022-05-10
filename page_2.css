@@ -1,0 +1,119 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: black;
+    max-width: 1920px;
+}
+.content
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0;
+}
+@media(min-width:1250px){
+.main
+{
+    min-height: auto;
+    width: 100%;
+    display: grid;
+    padding: 10px 10px 0 15%;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "x1 y1 z1"
+    "x2 y2 z2"
+    "x3 y3 z3";
+    color: white;
+}
+}
+@media (max-width: 1250px)
+{
+        .main{
+            min-height: auto;
+            width: 100%;
+            display: grid;
+            padding: 10px 10px 0 15%;
+            margin: 0;
+            grid-gap: 15px;
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+            grid-template-areas: 
+            "x1 y1"
+            "z1 x2"
+            "y2 z2"
+            "x3 y3"
+            "z3 z4";
+    }
+}
+.b1
+{
+    grid-area: x1;
+}
+.b2
+{
+    grid-area: y1;
+}
+.b3
+{
+    grid-area: z1;
+}
+.b4
+{
+        grid-area: x2;
+}
+.b6
+{
+    grid-area: y2;
+}
+.b7
+{
+    grid-area: z2;
+}
+.b8
+{
+    grid-area: x3;
+}
+.b9
+{
+    grid-area: y3;
+}
+.b11
+{
+    grid-area: z3;
+}
+.main div
+{
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0, .6);
+    color: orange;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.forms
+{
+    margin-top: 45px;
+}
+.f1 h3, .f2 h3
+{
+    padding: 0;
+    margin-top: 18.720px;
+}
+.f1 p, .f2 p
+{
+    padding: 0 0 0 5px;
+}

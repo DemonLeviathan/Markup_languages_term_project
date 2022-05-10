@@ -1,0 +1,18 @@
+header
+{
+    height: 150px;
+    background-image: url(1585776817_36-p-chernie-foni-iz-stalkera-103.jpg);
+    padding-left: 15%;
+    color: white;
+    width: 100%;
+}
+header h3
+{
+    margin: 0;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+#news
+{
+    text-decoration: line-through;
+}

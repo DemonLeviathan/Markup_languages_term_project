@@ -1,0 +1,48 @@
+.main-div {
+  height: auto;
+  min-height: 1000px;
+  background-image: url(SGA1QgM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-areas: "x x" "y y" "z1 z2" "m m";
+  color: white;
+  grid-gap: 10px;
+  padding: 2%; }
+
+.d1 {
+  grid-area: x; }
+
+.d2 {
+  grid-area: y; }
+
+.d3 {
+  grid-area: z1; }
+
+.d4 {
+  grid-area: z2;
+  max-width: 70%;
+  font-size: 21px; }
+
+.d5 {
+  grid-area: m; }
+
+aside {
+  font-size: 21px;
+  font-family: "book antiqua"; }
+
+h2 {
+  font-family: "book antiqua"; }
+
+span {
+  color: yellow; }
+
+.d5 a {
+  display: block;
+  background-image: linear-gradient(to bottom, yellow, black);
+  padding: 25px;
+  font-size: 21px;
+  text-decoration: none;
+  width: 20%; }
+
+/*# sourceMappingURL=slider.css.map */

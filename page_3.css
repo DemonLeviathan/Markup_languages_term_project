@@ -1,0 +1,123 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: black;
+    max-width: 1920px;
+}
+h2
+{
+    font-family: 'Algerian';
+    font-size: 28px;
+}
+h3
+{
+    font-size: 23px;
+}
+.content
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0;
+}
+.main
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.main section
+{
+    padding-left: 15%;
+    padding-right: 5%;
+}
+section p
+{
+    font-size: 35px;
+}
+section:first-child p
+{
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px -2px 5px white;
+    background-color: rgb(255, 255, 255, .3);
+}
+section:first-child
+{
+    height: 500px;
+    background-image: url(Stalker-2-emerges-from-the-shadows-at-Xbox-Games-Showcase-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box
+{
+    padding-right: 10px;
+    display: grid;
+    grid-gap: 5px;
+    height: auto;
+    grid-template-areas: "x x"
+    "z z"
+    "n m";
+    color: white;
+}
+section:last-child
+{
+    height: auto;
+}
+.d1
+{
+    grid-area: x;
+    height: auto;
+}
+.d3
+{
+    grid-area: z;
+    height: auto;
+}
+.d4
+{
+    grid-area: n;
+    height: 150px;
+}
+.d5
+{
+    grid-area: m;
+    height: 150px;
+}
+.d4, .d5
+{
+    border-top: 3px solid black;
+    padding-left: 5px;
+    padding-top: 0;
+}
+.forms
+{
+    margin-top: 45px;
+}
+.f1 h3, .f2 h3
+{
+    padding: 0;
+    margin-top: 18.720px;
+}
+.f1 p, .f2 p
+{
+    padding: 0 0 0 5px;
+}
+article
+{
+    text-indent: 2%;
+    line-height: 150%;
+}

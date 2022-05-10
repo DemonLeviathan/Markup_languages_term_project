@@ -1,0 +1,248 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: black;
+    max-width: 1920px;
+}
+.content
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0;
+}
+.main
+{
+    height: 1350px;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.forms
+{
+    margin-top: 45px;
+}
+.f1 h3, .f2 h3
+{
+    padding: 0;
+    margin-top: 18.720px;
+}
+.f1 p, .f2 p
+{
+    padding: 0 0 0 5px;
+}
+section:first-child
+{
+    background-image: url(stalker-2-xbox-reveal.jpg.e301c47c9a8fe06f25fa20d2e6f2ff2c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 695px;
+    background-position: 0 -70px;
+}
+section:last-child
+{
+    height: calc(1350px - 695px);
+    background-image: url(ss_09-27-17_01-38-32_gloom_big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1
+{
+    display: grid;
+    grid-gap: 5px;
+    height: 100%;
+    padding: 5px 10px 5px 15%;
+    color: white;
+    font-size: 20px;
+}
+.b1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.b2
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.b3
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    justify-content: center;
+    vertical-align: middle;
+    margin: auto;
+    height: 150px;
+    width: 200px;
+    background-color: #778899;
+}
+.b4
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.b5
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.b6
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.b3 a
+{
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+.b3 a:visited
+{
+    color: aliceblue;
+}
+.b4, .b5, .b6
+{
+    border-top: 2px solid black;
+}
+.b4 a, .b5 a, .b6 a
+{
+    text-decoration: underline;
+    color: white;
+}
+.box2
+{
+    display: grid;
+    height: 100%;
+    padding: 10px 10px 10px 15%;
+    grid-template-rows: 150px auto 200px;
+    grid-gap: 10px;
+}
+.d1
+{
+    color: wheat;
+}
+.d3
+{
+    color: #E0FFFF;
+    border-top: 3px solid black;
+}
+.d3 a
+{
+    color: #E0FFFF;
+    padding: 15px 25px 15px 25px;
+    background-color: #778899;
+    display: block;
+    width: 200px;
+    font-size: 17px;
+    margin-top: 5%;
+}
+/* ----------- */
+.topmenu
+{
+    list-style: none;
+}
+.topmenu:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.topmenu > li 
+{
+    list-style: none;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a 
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #cdab32;
+    padding: 20px 30px;
+}
+.topmenu li a:hover 
+{ 
+    color: #D5B45B; 
+}
+.submenu-link:after 
+{
+    content: "\f107";
+    font-family: "FontAwesome";
+    color: inherit;
+    margin-left: 3px;
+}
+.submenu 
+{
+    list-style: none;
+    background: #273037;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    width: 200px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: .5s ease-in-out;
+}
+.submenu a 
+{
+    color: white;
+    text-align: left;
+    padding: 12px 15px 15px 5px;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a 
+{ 
+    border-bottom: none; 
+}
+.topmenu > li:hover .submenu 
+{
+    opacity: 1;
+    transform: scaleY(1);
+}
+h2
+{
+    font-family: Algerian;
+}
+h3
+{
+    font-size: 20px;
+    text-shadow: 5px 10px 5px #273037;
+}
+aside
+{
+    text-indent: 2%;
+    line-height: 120%;
+    color: #E0FFFF;
+    text-shadow: 5px 5px 5px black;
+}

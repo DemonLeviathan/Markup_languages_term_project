@@ -1,0 +1,44 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: black;
+    max-width: 1920px;
+}
+.content
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0;
+}
+.main
+{
+    height: 1900px;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.forms
+{
+    margin-top: 45px;
+}
+.f1 h3, .f2 h3
+{
+    padding: 0;
+    margin-top: 18.720px;
+}
+.f1 p, .f2 p
+{
+    padding: 0 0 0 5px;
+}

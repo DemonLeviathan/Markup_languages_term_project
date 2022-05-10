@@ -1,0 +1,66 @@
+$text: white;
+$date: yellow;
+$size: 21px;
+$style: 'book antiqua';
+$im: url(i5.jpg);
+.main-div
+{
+    height: auto;
+    min-height: 1000px;
+    background-image: url(SGA1QgM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    "x x"
+    "y y"
+    "z1 z2"
+    "m m";
+    color: $text;
+    grid-gap: 10px;
+    padding: 2%;
+}
+.d1
+{
+    grid-area: x;
+}
+.d2
+{
+    grid-area: y;
+}
+.d3
+{
+    grid-area: z1;
+}
+.d4
+{
+    grid-area: z2;
+    max-width: 70%;
+    font-size: $size;
+}
+.d5
+{
+    grid-area: m;
+}
+aside
+{
+    font-size: $size;
+    font-family: $style;
+}
+h2
+{
+    font-family: $style;
+}
+span
+{
+    color: $date;
+}
+.d5 a
+{
+    display: block;
+    background-image: linear-gradient(to bottom, $date, black);
+    padding: 25px;
+    font-size: $size;
+    text-decoration: none;
+    width: 20%;
+}

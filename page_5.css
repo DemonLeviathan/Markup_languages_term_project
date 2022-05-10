@@ -1,0 +1,186 @@
+*, *::before, *:after
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: black;
+    max-width: 1920px;
+}
+.content
+{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-gap: 0;
+}
+.main
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+section:first-child
+{
+    min-height: 1000px;
+    background-image: url(s-t-a-l-k-e-r-2-pripyat-chast-vtoraya-hfgb.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box div
+{
+    border: 2px solid white;
+    background-size: cover;
+    min-height: 400px;
+    background-image: url(i2.jpg);
+    color: white;
+}
+.box div a
+{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 7px -1px 5px #556B2F;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'book antiqua';
+}
+.box div:hover
+{
+    animation: d1v 10s alternate infinite;
+}
+@keyframes d1v
+{
+    from {background-image: url(i2.jpg);}
+    25% {background-image: url(i1.jpg);}
+    50% {background-image: url(i3.jpg);}
+    75% {background-image: url(i4.jpg);}
+    to {background-image: url(i5.jpg);}
+}
+.b1
+{
+    grid-area: x1;
+}
+.b2
+{
+    grid-area: y1;
+}
+.b3
+{
+    grid-area: z1;
+}
+.b4
+{
+    grid-area: x2;
+}
+.b5
+{
+    grid-area: y2;
+}
+.b6
+{
+    grid-area: z2;
+}
+.b7
+{
+    grid-area: x3;
+}
+.b8
+{
+    grid-area: y3;
+}
+.b9
+{
+    grid-area: z3;
+}
+section:last-child
+{
+    margin: 0 10px 30px 15%;
+    height: auto;
+    color: white;
+}
+@media(min-width:1250px){
+    .box
+    {
+        min-height: 1000px;
+        width: 100%;
+        display: grid;
+        padding: 10px 10px 10px 15%;
+        margin: 0;
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "x1 y1 z1"
+        "x2 y2 z2"
+        "x3 y3 z3";
+        color: white;
+    }
+}
+@media (max-width: 1250px)
+{
+    .box{
+        min-height: 1000px;
+        width: 100%;
+        display: grid;
+        padding: 10px 10px 10px 15%;
+        margin: 0;
+        grid-gap: 10px;
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        grid-template-areas: 
+            "x1 y1"
+            "z1 x2"
+            "y2 z2"
+            "x3 y3"
+            "z3 z4";
+        }
+}
+@media (max-width: 1250px)
+{
+    .box{
+        min-height: 1000px;
+        width: 100%;
+        display: grid;
+        padding: 10px 10px 10px 15%;
+        margin: 0;
+        grid-gap: 10px;
+        background-size: cover;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        grid-template-areas: 
+            "x1 y1"
+            "z1 x2"
+            "y2 z2"
+            "x3 y3"
+            "z3 z4";
+        }
+}
+h2
+{
+    font-family: Algerian;
+    text-shadow: 5px 5px 5px #556B2F;
+}
+aside
+{
+    text-indent: 2%;
+    line-height: 120%;
+    font-size: 18px;
+}
+span
+{
+    font-weight: bold;
+    font-family: 'book antiqua';
+}

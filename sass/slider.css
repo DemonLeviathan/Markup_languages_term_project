@@ -1,0 +1,72 @@
+.main-div {
+  height: auto;
+  min-height: 1000px;
+  background-image: url(SGA1QgM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "x x" "y y" "z1 z2" "m m";
+  color: white;
+  grid-gap: 10px;
+  padding: 2%;
+}
+
+.d1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: x;
+}
+
+.d2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: y;
+}
+
+.d3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: z1;
+}
+
+.d4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: z2;
+  max-width: 70%;
+  font-size: 21px;
+}
+
+.d5 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: m;
+}
+
+aside {
+  font-size: 21px;
+  font-family: "book antiqua";
+}
+
+h2 {
+  font-family: "book antiqua";
+}
+
+span {
+  color: yellow;
+}
+
+.d5 a {
+  display: block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(black));
+  background-image: linear-gradient(to bottom, yellow, black);
+  padding: 25px;
+  font-size: 21px;
+  text-decoration: none;
+  width: 20%;
+}
+/*# sourceMappingURL=slider.css.map */
