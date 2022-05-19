@@ -19,21 +19,7 @@ body
     color: $text;
     grid-gap: 10px;
     padding: 2%; }
-.d1
-{   grid-area: x; }
-.d2
-{ grid-area: y; }
-.d3
-{ grid-area: z1; }
-.d4
-{   grid-area: z2;
-    max-width: 70%;
-    font-size: $size; }
-.d5
-{ grid-area: m;}
-aside
-{   font-size: $size;
-    font-family: $style; }
+
 h2
 {   font-family: $style; }
 span
@@ -45,3 +31,29 @@ span
     font-size: $size;
     text-decoration: none;
     width: 20%; }
+.d5 a:visited
+{
+    color: black;
+}
+@mixin aside-block {
+    aside {
+        font-size: $size;
+        font-family: $style;
+    }
+}
+@include aside-block;
+@mixin grid-block {
+    .d1
+{   grid-area: x; }
+.d2
+{ grid-area: y; }
+.d3
+{ grid-area: z1; }
+.d4
+{   grid-area: z2;
+    max-width: 70%;
+    font-size: $size; }
+.d5
+{ grid-area: m;}
+}
+@include grid-block;

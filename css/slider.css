@@ -10,6 +10,27 @@ body {
   grid-gap: 10px;
   padding: 2%; }
 
+h2 {
+  font-family: "book antiqua"; }
+
+span {
+  color: yellow; }
+
+.d5 a {
+  display: block;
+  background-image: linear-gradient(to bottom, yellow, black);
+  padding: 25px;
+  font-size: 21px;
+  text-decoration: none;
+  width: 20%; }
+
+.d5 a:visited {
+  color: black; }
+
+aside {
+  font-size: 21px;
+  font-family: "book antiqua"; }
+
 .d1 {
   grid-area: x; }
 
@@ -26,23 +47,5 @@ body {
 
 .d5 {
   grid-area: m; }
-
-aside {
-  font-size: 21px;
-  font-family: "book antiqua"; }
-
-h2 {
-  font-family: "book antiqua"; }
-
-span {
-  color: yellow; }
-
-.d5 a {
-  display: block;
-  background-image: linear-gradient(to bottom, yellow, black);
-  padding: 25px;
-  font-size: 21px;
-  text-decoration: none;
-  width: 20%; }
 
 /*# sourceMappingURL=slider.css.map */
