@@ -24,7 +24,7 @@ body
     display: grid;
     padding: 0;
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body
 }
 section:first-child
 {
-    background-image: url(stalker-2-xbox-reveal.jpg.e301c47c9a8fe06f25fa20d2e6f2ff2c.jpg);
+    background-image: url(img/stalker-2-xbox-reveal.jpg.e301c47c9a8fe06f25fa20d2e6f2ff2c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 695px;
@@ -53,7 +53,7 @@ section:first-child
 section:last-child
 {
     height: calc(1350px - 695px);
-    background-image: url(ss_09-27-17_01-38-32_gloom_big.jpg);
+    background-image: url(img/ss_09-27-17_01-38-32_gloom_big.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

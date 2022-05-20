@@ -24,7 +24,7 @@ body
     display: grid;
     padding: 0;
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body
 section:first-child
 {
     min-height: 1000px;
-    background-image: url(s-t-a-l-k-e-r-2-pripyat-chast-vtoraya-hfgb.jpeg);
+    background-image: url(img/s-t-a-l-k-e-r-2-pripyat-chast-vtoraya-hfgb.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -41,7 +41,7 @@ section:first-child
     border: 2px solid white;
     background-size: cover;
     min-height: 400px;
-    background-image: url(i2.jpg);
+    background-image: url(img/i2.jpg);
     color: white;
 }
 .box div a
@@ -61,11 +61,11 @@ section:first-child
 }
 @keyframes d1v
 {
-    from {background-image: url(i2.jpg);}
-    25% {background-image: url(i1.jpg);}
-    50% {background-image: url(i3.jpg);}
-    75% {background-image: url(i4.jpg);}
-    to {background-image: url(i5.jpg);}
+    from {background-image: url(img/i2.jpg);}
+    25% {background-image: url(img/i1.jpg);}
+    50% {background-image: url(img/i3.jpg);}
+    75% {background-image: url(img/i4.jpg);}
+    to {background-image: url(img/i5.jpg);}
 }
 .b1
 {

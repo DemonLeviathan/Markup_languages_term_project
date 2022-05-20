@@ -25,7 +25,7 @@ body
     display: grid;
     padding: 10px 10px 0 15%;
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;

@@ -2,7 +2,7 @@ $text: white;
 $date: yellow;
 $size: 21px;
 $style: 'book antiqua';
-$im: url(i5.jpg);
+$img: url(img/i5.jpg);
 body
 {
     margin: 0;
@@ -30,7 +30,8 @@ span
     padding: 25px;
     font-size: $size;
     text-decoration: none;
-    width: 20%; }
+    width: 20%;
+    color: black; }
 .d5 a:visited
 {
     color: black;

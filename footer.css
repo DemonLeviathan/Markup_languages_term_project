@@ -1,6 +1,6 @@
 footer
 {
-    background-image: url(SGA1QgM.jpg);
+    background-image: url(img/SGA1QgM.jpg);
     height: 260px;
     margin: 0;
 }
@@ -24,7 +24,7 @@ footer
     grid-row-start: 1;
     grid-row-end: 3;
     padding-left: 5px;
-    background-image: url(1585776817_36-p-chernie-foni-iz-stalkera-103.jpg);
+    background-image: url(img/1585776817_36-p-chernie-foni-iz-stalkera-103.jpg);
     color: white;
 }
 .f2
@@ -34,7 +34,7 @@ footer
     grid-row-start: 1;
     grid-row-end: 3;
     padding-left: 5px;
-    background-image: url(1585776817_36-p-chernie-foni-iz-stalkera-103.jpg);
+    background-image: url(img/1585776817_36-p-chernie-foni-iz-stalkera-103.jpg);
     color: white;
 }
 .f1, .f2

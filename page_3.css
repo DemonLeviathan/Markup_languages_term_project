@@ -33,7 +33,7 @@ h3
     display: grid;
     padding: 0;
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ section:first-child p
 section:first-child
 {
     height: 500px;
-    background-image: url(Stalker-2-emerges-from-the-shadows-at-Xbox-Games-Showcase-2.jpg);
+    background-image: url(img/Stalker-2-emerges-from-the-shadows-at-Xbox-Games-Showcase-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

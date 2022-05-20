@@ -22,7 +22,8 @@ span {
   padding: 25px;
   font-size: 21px;
   text-decoration: none;
-  width: 20%; }
+  width: 20%;
+  color: black; }
 
 .d5 a:visited {
   color: black; }
