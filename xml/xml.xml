@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site>
+    <page1>
+        <name> Main </name>
+        <info> Page contains main information(news, events, games, work, etc) and links to other pages </info>
+    </page1>
+    <page2>
+        <name> News </name>
+        <info> Page contains information about news about developer team and game </info>
+    </page2>
+    <page3>
+        <name> About us </name>
+        <info> Page contains information about developer team </info>
+    </page3>
+    <page4>
+        <name> Work in GSC Game World </name>
+        <info> Page contains information about company and list with vacansies you can choose </info>
+    </page4>
+    <page5>
+        <name> Games </name>
+        <info> Page contains information about games from developer team and links to install it </info>
+    </page5>
+    <page6>
+        <name> Pre order </name>
+        <info> User can makes pre order to game and search some information about it </info>
+    </page6>
+</site>
