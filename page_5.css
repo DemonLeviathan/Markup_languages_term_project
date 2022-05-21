@@ -148,25 +148,10 @@ section:last-child
             "z3 z4";
         }
 }
-@media (max-width: 1250px)
+@media (max-width: 1050px)
 {
-    .box{
-        min-height: 1000px;
-        width: 100%;
-        display: grid;
-        padding: 10px 10px 10px 15%;
-        margin: 0;
-        grid-gap: 10px;
-        background-size: cover;
-        background-position: 50% 0;
-        background-repeat: no-repeat;
-        grid-template-areas: 
-            "x1 y1"
-            "z1 x2"
-            "y2 z2"
-            "x3 y3"
-            "z3 z4";
-        }
+    .box
+    {padding-left: 10px;}
 }
 h2
 {

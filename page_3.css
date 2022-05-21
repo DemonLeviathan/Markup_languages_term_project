@@ -121,3 +121,10 @@ article
     text-indent: 2%;
     line-height: 150%;
 }
+@media (max-width: 1050px)
+{
+    .main section
+    {
+        padding-left: 10px;
+    }
+}

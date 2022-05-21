@@ -43,7 +43,7 @@ footer
 }
 .site
 {
-    background-color: aquamarine;
+    background-color: #4682B4;
     z-index: 150;
     height: 50px;
     display: grid;

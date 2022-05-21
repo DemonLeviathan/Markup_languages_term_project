@@ -19,7 +19,8 @@ body
 }
 .main
 {
-    height: 1350px;
+    min-height: 1350px;
+    height: auto;
     width: 100%;
     display: grid;
     padding: 0;
@@ -49,6 +50,7 @@ section:first-child
     background-repeat: no-repeat;
     height: 695px;
     background-position: 0 -70px;
+    height: auto;
 }
 section:last-child
 {
@@ -56,6 +58,7 @@ section:last-child
     background-image: url(img/ss_09-27-17_01-38-32_gloom_big.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
 .box1
 {
@@ -245,4 +248,11 @@ aside
     line-height: 120%;
     color: #E0FFFF;
     text-shadow: 5px 5px 5px black;
+}
+@media (max-width: 1050px)
+{
+    .main div
+    {
+        padding-left: 10px;
+    }
 }

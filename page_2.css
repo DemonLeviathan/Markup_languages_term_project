@@ -58,6 +58,13 @@ body
             "z3 z4";
     }
 }
+@media (max-width: 1050px)
+{
+    .main
+    {
+        padding-left: 10px;
+    }
+}
 .b1
 {
     grid-area: x1;
